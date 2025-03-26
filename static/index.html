@@ -217,17 +217,7 @@
                     <div class="input-group mb-3">
                        <label class="input-group-text" for="expiration" title="⚠️过期后将会自动删除，并释放后缀，其他人将可使用！">有 效 时 长</label>
                        <select class="form-select" id="expiration" name="expiration" onchange="handleExpirationChange()">
-                       <option value="">永久有效</option>
-                       <option value="5">5分钟</option>
-                       <option value="10">10分钟</option>
-                       <option value="30">30分钟</option>
-                       <option value="60">1小时</option>
-                       <option value="600">10小时</option>
                        <option value="1440" selected>1天</option>
-                       <option value="10080">1周</option>
-                       <option value="43200">1个月</option>
-                       <option value="31536000">1年</option>
-                       <option value="custom">自定义</option>
                        </select>
                        <input type="number" class="form-control" id="expirationCustom" placeholder="请输入分钟数" style="display:none;">
                     </div>
